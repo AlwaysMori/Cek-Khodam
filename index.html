@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khodam Checker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Masukkan Nama Kamu</h2>
+        <input type="text" id="nameInput" placeholder="Nama Kamu" />
+        <button onclick="checkKhodam()">CEK KHODAM</button>
+
+        <div id="result" class="result" style="display: none;">
+            <p>Nama Kamu: <span id="userName"></span></p>
+            <p>Nama Khodam: <span id="khodamName"></span></p>
+            <p>Deskripsi Khodam: <span id="khodamDescription"></span></p>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>Reserved Alwaysmori</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
